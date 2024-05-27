@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title><link rel="stylesheet" href="./form.css" >
+
+</head>
+<body align=center>
+<h1><b><i>Home Rentals</i></b></h1>
+<h4>Sabse Sasta Ghar</h4>
+<h2>Add Property Details</h2>
+<form action="AddProperty.jsp" method="post">
+Enter ID: <input type="number" name="a1"><br><br>
+Enter Property Name: <input type="text" name="a2"><br><br>
+Enter Address: <input type="text" name="a3"><br><br>
+Enter Property Description: <input type="text" name="a4"><br><br>
+Enter rent: <input type="number" name="a5" min=3000 max=50000><br><br>
+Enter Owner Name: <input type="text" name="a6"><br><br>
+Enter Owner Number: <input type="tel" name="a7" pattern="[0-9]{10}"><br><br>
+Enter Images(path): <input type="text" name="a8"><br><br>
+<input type="submit" value="Add Property">
+</form>
+</body>
+</html>

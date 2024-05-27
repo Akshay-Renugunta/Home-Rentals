@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+
+body{
+	    background-color: #F8F6F4;
+	
+}
+input{
+	padding:10px 20px;
+	background-color:#265073;
+	margin-bottom:10px;
+	color:white;
+	border-radius:10px;
+}
